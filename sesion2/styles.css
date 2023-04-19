@@ -1,6 +1,49 @@
-h1 {
-    color: red;
+* {
+    box-sizing: border-box;
 }
-h2 {
-    color: purple;
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: rgba(48, 194, 11,1);
+    height: 20vh;
+    margin-bottom: 50px;
+    padding: 50px;
+    width: 100vw;
+}
+nav {
+    background-color: rgba(255, 255, 255, 0.5);
+    height: 5vh;
+    width: 90vw;
+}
+div {
+    height: 60vh;
+    width: 100vw;
+    display: inline-block;
+}
+.aside {
+    height: 100%;
+    width: 20vw;
+    background-color: orange;
+}
+main {
+    background-color: red;
+    height: 100%;
+    width: 50vw;
+    padding: 5vh 5vw;
+}
+.article {
+    background-color: white;
+    width: 90%;
+    height: 25%;
+    margin-bottom: 35px;
+}
+footer {
+    background-color: purple;
+    height: 20vh;
+    /* margin-top: 50px; */
+    padding: 50px;
+    width: 100vw;
 }
